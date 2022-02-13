@@ -126,7 +126,7 @@ const Giphy = () => {
         itemsPerPage={itemsPerPage}
         totalItems={data.length}
       />
-      
+      <div className="container gifs">{renderGifs()}</div>
     </div>
   );
 };
